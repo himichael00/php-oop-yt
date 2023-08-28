@@ -1,12 +1,4 @@
 <?php
-// MAPPA STUDIOS
-// MANGA
-// ANIME
-
-interface infoproduk {
-    public function detaillengkap();
-}
-
 abstract class Produk {
     protected $judul,
            $penulis,
@@ -87,18 +79,4 @@ abstract class Produk {
 
     abstract public function getInfo();
 }
-
-
-
-
-
-// $infoproduk = new CetakInfoProduk();
-// echo $infoproduk->cetak($product1);
-
-// echo "<br>";
-// $detailproduk = new Produk();
-// echo $detailproduk->detaillengkap();
-
-// $infoprodukdetail = new detail();
-// echo $infoprodukdetail->
 ?>
